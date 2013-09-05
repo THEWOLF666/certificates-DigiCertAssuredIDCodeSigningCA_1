@@ -1,4 +1,5 @@
 #!/bin/bash
-security add-certificates -k "/Library/Keychains/System.keychain" "/private/tmp/DigiCertAssuredIDCodeSigningCA-1.crt"
 
-exit 0
+#Installs the certificate into the system keychain.
+security add-certificates -k "/Library/Keychains/System.keychain" "/private/tmp/DigiCertAssuredIDCodeSigningCA-1.crt"
+rm "/private/tmp/DigiCertAssuredIDCodeSigningCA-1.crt"
