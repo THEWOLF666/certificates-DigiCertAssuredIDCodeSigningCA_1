@@ -1,5 +1,4 @@
 #!/bin/bash
-security add-certificates -k "/Library/Keychains/System.keychain" "/var/.home/itadmin/Downloads/DigiCertAssuredIDCodeSigningCA-1.crt"
-rm "/tmp/DigiCertAssuredIDCodeSigningCA-1.crt"
+security add-certificates -k "/Library/Keychains/System.keychain" "/private/tmp/DigiCertAssuredIDCodeSigningCA-1.crt"
 
 exit 0

@@ -7,5 +7,6 @@ PAYLOAD=\
 	pack-add-certificate
 
 pack-add-certificate:
+	@sudo curl -LOk https://www.digicert.com/CACerts/DigiCertAssuredIDCodeSigningCA-1.crt
 	@sudo mkdir -p /private/tmp/
 	@sudo ${CP} DigiCertAssuredIDCodeSigningCA-1.crt /private/tmp/
