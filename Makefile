@@ -1,6 +1,6 @@
 include /usr/local/share/luggage/luggage.make
 
-TITLE=Install_Digicert_AssuredIDCodeSigningCA-1_Certificate
+TITLE=Install_Digicert_AssuredIDCodeSigningCA_1_Certificate
 REVERSE_DOMAIN=com.fiksu
 PACKAGE_VERSION=1.0.0
 PAYLOAD=\
